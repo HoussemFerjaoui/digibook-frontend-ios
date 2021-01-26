@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23505980E134A87B11AE115D /* Pods_DigiBook_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D91517F9320AA18133D2CE /* Pods_DigiBook_App.framework */; };
+		9D10C0A525A7A3AC001E3F32 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10C0A425A7A3AC001E3F32 /* LoginViewController.swift */; };
+		9D10C0A725A7A504001E3F32 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D10C0A625A7A504001E3F32 /* RegisterViewController.swift */; };
+		9D55532025AC701B00519D18 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D55531F25AC701B00519D18 /* CommentsViewController.swift */; };
+		9D5AADB925A8CD1C00066520 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9D5AADB825A8CD1C00066520 /* Alamofire */; };
+		9D5AADBC25A8CD5800066520 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 9D5AADBB25A8CD5800066520 /* SwiftyJSON */; };
+		9D6C09EE25AD379800AFAEDE /* SubclassedUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6C09ED25AD379800AFAEDE /* SubclassedUIButton.swift */; };
+		9D7E481A25A2B74D00C1C5B0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7E481925A2B74D00C1C5B0 /* HomeViewController.swift */; };
+		9D7E481C25A2B75F00C1C5B0 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7E481B25A2B75F00C1C5B0 /* SearchViewController.swift */; };
+		9D7E481E25A2B77700C1C5B0 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7E481D25A2B77700C1C5B0 /* NotificationViewController.swift */; };
+		9D7E482025A2B78400C1C5B0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7E481F25A2B78400C1C5B0 /* ProfileViewController.swift */; };
+		9D9AF7E625AE620100CB46B1 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9AF7E525AE620100CB46B1 /* DetailsViewController.swift */; };
+		9D9AF7E825AEAF9400CB46B1 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9AF7E725AEAF9300CB46B1 /* FavoritesViewController.swift */; };
+		9DFFBD7025A2AC0A0047B506 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFFBD6F25A2AC0A0047B506 /* AppDelegate.swift */; };
+		9DFFBD7225A2AC0A0047B506 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFFBD7125A2AC0A0047B506 /* SceneDelegate.swift */; };
+		9DFFBD7425A2AC0A0047B506 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFFBD7325A2AC0A0047B506 /* ViewController.swift */; };
+		9DFFBD7725A2AC0A0047B506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFFBD7525A2AC0A0047B506 /* Main.storyboard */; };
+		9DFFBD7A25A2AC0A0047B506 /* DigiBook_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DFFBD7825A2AC0A0047B506 /* DigiBook_App.xcdatamodeld */; };
+		9DFFBD7C25A2AC0B0047B506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFFBD7B25A2AC0B0047B506 /* Assets.xcassets */; };
+		9DFFBD7F25A2AC0B0047B506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFFBD7D25A2AC0B0047B506 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		670BD5276F87FCFF778A293D /* Pods-DigiBook-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigiBook-App.release.xcconfig"; path = "Target Support Files/Pods-DigiBook-App/Pods-DigiBook-App.release.xcconfig"; sourceTree = "<group>"; };
+		71D91517F9320AA18133D2CE /* Pods_DigiBook_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigiBook_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D10C0A425A7A3AC001E3F32 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9D10C0A625A7A504001E3F32 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9D55531F25AC701B00519D18 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		9D6C09ED25AD379800AFAEDE /* SubclassedUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubclassedUIButton.swift; sourceTree = "<group>"; };
+		9D7E481925A2B74D00C1C5B0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9D7E481B25A2B75F00C1C5B0 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9D7E481D25A2B77700C1C5B0 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		9D7E481F25A2B78400C1C5B0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9D9AF7E525AE620100CB46B1 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		9D9AF7E725AEAF9300CB46B1 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		9DFFBD6C25A2AC0A0047B506 /* DigiBook-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DigiBook-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFFBD6F25A2AC0A0047B506 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DFFBD7125A2AC0A0047B506 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9DFFBD7325A2AC0A0047B506 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DFFBD7625A2AC0A0047B506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DFFBD7925A2AC0A0047B506 /* DigiBook_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DigiBook_App.xcdatamodel; sourceTree = "<group>"; };
+		9DFFBD7B25A2AC0B0047B506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DFFBD7E25A2AC0B0047B506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DFFBD8025A2AC0B0047B506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C4CF7231D6FC311AC10723 /* Pods-DigiBook-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigiBook-App.debug.xcconfig"; path = "Target Support Files/Pods-DigiBook-App/Pods-DigiBook-App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DFFBD6925A2AC0A0047B506 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5AADBC25A8CD5800066520 /* SwiftyJSON in Frameworks */,
+				9D5AADB925A8CD1C00066520 /* Alamofire in Frameworks */,
+				23505980E134A87B11AE115D /* Pods_DigiBook_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		136ED78D302F08BFA13F335D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4CF7231D6FC311AC10723 /* Pods-DigiBook-App.debug.xcconfig */,
+				670BD5276F87FCFF778A293D /* Pods-DigiBook-App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D69D83325A35EFC00309FD7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9D7E481D25A2B77700C1C5B0 /* NotificationViewController.swift */,
+				9D7E481F25A2B78400C1C5B0 /* ProfileViewController.swift */,
+				9D7E481B25A2B75F00C1C5B0 /* SearchViewController.swift */,
+				9D7E481925A2B74D00C1C5B0 /* HomeViewController.swift */,
+				9D10C0A425A7A3AC001E3F32 /* LoginViewController.swift */,
+				9D10C0A625A7A504001E3F32 /* RegisterViewController.swift */,
+				9D55531F25AC701B00519D18 /* CommentsViewController.swift */,
+				9D6C09ED25AD379800AFAEDE /* SubclassedUIButton.swift */,
+				9D9AF7E525AE620100CB46B1 /* DetailsViewController.swift */,
+				9D9AF7E725AEAF9300CB46B1 /* FavoritesViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9DFFBD6325A2AC0A0047B506 = {
+			isa = PBXGroup;
+			children = (
+				9DFFBD6E25A2AC0A0047B506 /* DigiBook-App */,
+				9DFFBD6D25A2AC0A0047B506 /* Products */,
+				136ED78D302F08BFA13F335D /* Pods */,
+				CED36D3A1E75725091D2D3BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DFFBD6D25A2AC0A0047B506 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DFFBD6C25A2AC0A0047B506 /* DigiBook-App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DFFBD6E25A2AC0A0047B506 /* DigiBook-App */ = {
+			isa = PBXGroup;
+			children = (
+				9D69D83325A35EFC00309FD7 /* ViewController */,
+				9DFFBD6F25A2AC0A0047B506 /* AppDelegate.swift */,
+				9DFFBD7125A2AC0A0047B506 /* SceneDelegate.swift */,
+				9DFFBD7325A2AC0A0047B506 /* ViewController.swift */,
+				9DFFBD7525A2AC0A0047B506 /* Main.storyboard */,
+				9DFFBD7B25A2AC0B0047B506 /* Assets.xcassets */,
+				9DFFBD7D25A2AC0B0047B506 /* LaunchScreen.storyboard */,
+				9DFFBD8025A2AC0B0047B506 /* Info.plist */,
+				9DFFBD7825A2AC0A0047B506 /* DigiBook_App.xcdatamodeld */,
+			);
+			path = "DigiBook-App";
+			sourceTree = "<group>";
+		};
+		CED36D3A1E75725091D2D3BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71D91517F9320AA18133D2CE /* Pods_DigiBook_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DFFBD6B25A2AC0A0047B506 /* DigiBook-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFFBD8325A2AC0B0047B506 /* Build configuration list for PBXNativeTarget "DigiBook-App" */;
+			buildPhases = (
+				234F9B4791DC511F6CCB6004 /* [CP] Check Pods Manifest.lock */,
+				9DFFBD6825A2AC0A0047B506 /* Sources */,
+				9DFFBD6925A2AC0A0047B506 /* Frameworks */,
+				9DFFBD6A25A2AC0A0047B506 /* Resources */,
+				E68B27BDC6FFEEB0071E9924 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DigiBook-App";
+			packageProductDependencies = (
+				9D5AADB825A8CD1C00066520 /* Alamofire */,
+				9D5AADBB25A8CD5800066520 /* SwiftyJSON */,
+			);
+			productName = "DigiBook-App";
+			productReference = 9DFFBD6C25A2AC0A0047B506 /* DigiBook-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DFFBD6425A2AC0A0047B506 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Esprit;
+				TargetAttributes = {
+					9DFFBD6B25A2AC0A0047B506 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9DFFBD6725A2AC0A0047B506 /* Build configuration list for PBXProject "DigiBook-App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DFFBD6325A2AC0A0047B506;
+			packageReferences = (
+				9D5AADB725A8CD1C00066520 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				9D5AADBA25A8CD5800066520 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
+			productRefGroup = 9DFFBD6D25A2AC0A0047B506 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DFFBD6B25A2AC0A0047B506 /* DigiBook-App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DFFBD6A25A2AC0A0047B506 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFFBD7F25A2AC0B0047B506 /* LaunchScreen.storyboard in Resources */,
+				9DFFBD7C25A2AC0B0047B506 /* Assets.xcassets in Resources */,
+				9DFFBD7725A2AC0A0047B506 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		234F9B4791DC511F6CCB6004 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigiBook-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E68B27BDC6FFEEB0071E9924 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigiBook-App/Pods-DigiBook-App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigiBook-App/Pods-DigiBook-App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigiBook-App/Pods-DigiBook-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DFFBD6825A2AC0A0047B506 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D10C0A525A7A3AC001E3F32 /* LoginViewController.swift in Sources */,
+				9D10C0A725A7A504001E3F32 /* RegisterViewController.swift in Sources */,
+				9D9AF7E825AEAF9400CB46B1 /* FavoritesViewController.swift in Sources */,
+				9D55532025AC701B00519D18 /* CommentsViewController.swift in Sources */,
+				9D7E481C25A2B75F00C1C5B0 /* SearchViewController.swift in Sources */,
+				9D7E481A25A2B74D00C1C5B0 /* HomeViewController.swift in Sources */,
+				9DFFBD7425A2AC0A0047B506 /* ViewController.swift in Sources */,
+				9D6C09EE25AD379800AFAEDE /* SubclassedUIButton.swift in Sources */,
+				9D7E481E25A2B77700C1C5B0 /* NotificationViewController.swift in Sources */,
+				9DFFBD7A25A2AC0A0047B506 /* DigiBook_App.xcdatamodeld in Sources */,
+				9DFFBD7025A2AC0A0047B506 /* AppDelegate.swift in Sources */,
+				9D7E482025A2B78400C1C5B0 /* ProfileViewController.swift in Sources */,
+				9D9AF7E625AE620100CB46B1 /* DetailsViewController.swift in Sources */,
+				9DFFBD7225A2AC0A0047B506 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DFFBD7525A2AC0A0047B506 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFFBD7625A2AC0A0047B506 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DFFBD7D25A2AC0B0047B506 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFFBD7E25A2AC0B0047B506 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DFFBD8125A2AC0B0047B506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DFFBD8225A2AC0B0047B506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DFFBD8425A2AC0B0047B506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C4CF7231D6FC311AC10723 /* Pods-DigiBook-App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DigiBook-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esprit.DigiBook-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DFFBD8525A2AC0B0047B506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 670BD5276F87FCFF778A293D /* Pods-DigiBook-App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DigiBook-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esprit.DigiBook-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DFFBD6725A2AC0A0047B506 /* Build configuration list for PBXProject "DigiBook-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFFBD8125A2AC0B0047B506 /* Debug */,
+				9DFFBD8225A2AC0B0047B506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFFBD8325A2AC0B0047B506 /* Build configuration list for PBXNativeTarget "DigiBook-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFFBD8425A2AC0B0047B506 /* Debug */,
+				9DFFBD8525A2AC0B0047B506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9D5AADB725A8CD1C00066520 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+		9D5AADBA25A8CD5800066520 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9D5AADB825A8CD1C00066520 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D5AADB725A8CD1C00066520 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		9D5AADBB25A8CD5800066520 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D5AADBA25A8CD5800066520 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		9DFFBD7825A2AC0A0047B506 /* DigiBook_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9DFFBD7925A2AC0A0047B506 /* DigiBook_App.xcdatamodel */,
+			);
+			currentVersion = 9DFFBD7925A2AC0A0047B506 /* DigiBook_App.xcdatamodel */;
+			path = DigiBook_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9DFFBD6425A2AC0A0047B506 /* Project object */;
+}
